@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    background-color: rgba(127, 255, 212, 0.377);
+
+} 
+.col-3{
+  background-color: rgba(127, 255, 212, 0.856);
+}
+
+img{
+    height: 45px;
+    width: 45px;
+    border-radius: 65px;
+    margin: 0.5rem;
+}
+.btn_group{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-items: end;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem; 
+}
+.new_chat{
+    padding: 2rem;
+    margin: 0 3rem;
+    
+
+}
+.conteiner-user{
+    display: flex;
+    justify-content: start;
+    margin: 0.5rem;
+    gap: 0.5rem;
+}
+.img-content img{
+   
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+.img-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 14rem;
+}
+.img-content p{
+    padding: 0 16rem;
+}
